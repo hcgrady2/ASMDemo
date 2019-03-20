@@ -1,11 +1,15 @@
 https://www.jianshu.com/p/13d18c631549
+
 https://juejin.im/post/5c6eaa066fb9a049fc042048
 
 1、新建 buildSrc
-只能 src/main,其他文件及文件夹删除
+
+只留 src/main,其他文件及文件夹删除
+
 build.gradle 内容删除
 
 2、新建 src/main/groovy
+
 src/main/resources/META-INF/gradle-plugins/plugin.properties
 
 3、修改 build.gradle 内容
